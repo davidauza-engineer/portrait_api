@@ -28,3 +28,6 @@
 
 # IDE related files
 .idea
+
+# Coverage related files
+coverage
