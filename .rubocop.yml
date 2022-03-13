@@ -8,6 +8,7 @@ AllCops:
     - 'db/**/*'
     - 'script/**/*'
     - 'bin/**/*'
+    -  vendor/bundle/**/*
   NewCops: enable
 
 Layout/LineLength:

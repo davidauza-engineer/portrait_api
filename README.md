@@ -1,3 +1,5 @@
+[![davidauza-engineer](https://circleci.com/gh/davidauza-engineer/portrait_api/tree/develop.svg?style=svg)](https://circleci.com/gh/davidauza-engineer/portrait_api/?branch=develop)
+
 # README
 
 This README would normally document whatever steps are necessary to get the
