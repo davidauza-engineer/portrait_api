@@ -31,3 +31,6 @@
 
 # Coverage related files
 coverage
+
+# Ignore application configuration
+/config/application.yml
