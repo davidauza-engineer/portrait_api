@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-# frozen_string_literal.rb
-
 require 'rails_helper'
 
 RSpec.describe 'Planets Requests', type: :request do
