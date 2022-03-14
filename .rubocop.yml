@@ -1,0 +1,33 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'script/**/*'
+    - 'bin/**/*'
+    -  vendor/bundle/**/*
+  NewCops: enable
+
+Layout/LineLength:
+  Max: 100
+
+Metrics/BlockLength:
+  Exclude:
+    - config/**/*
+    - spec/**/*
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - spec/**/*
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 4
+
+RSpec/NamedSubject:
+  Enabled: false
