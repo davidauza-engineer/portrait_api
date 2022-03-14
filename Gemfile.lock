@@ -37,6 +37,9 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
+    active_interaction (4.1.0)
+      activemodel (>= 5, < 8)
+      activesupport (>= 5, < 8)
     activejob (6.0.4.7)
       activesupport (= 6.0.4.7)
       globalid (>= 0.3.6)
@@ -199,6 +202,7 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
+  active_interaction (~> 4.1)
   bootsnap (>= 1.4.2)
   byebug
   listen (~> 3.2)
